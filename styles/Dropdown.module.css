@@ -1,0 +1,41 @@
+.dropDownControl {
+  background-color: #f4f4f4e3;
+  min-width: 250px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-radius: 2px;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+  height: 45px;
+  padding: 5px;
+  padding-left: 30px;
+  color: #0b090a;
+  font-size: 14px;
+}
+
+.dropDownControl > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropDownControlGreen {
+  background-color: #008b65;
+  min-width: 170px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+  height: 30px;
+  padding: 8px;
+  border-radius: 2px;
+  font-size: 14px;
+  padding-left: 14px;
+  padding: 20px;
+}

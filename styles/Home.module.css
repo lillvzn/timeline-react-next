@@ -1,0 +1,439 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  color: black;
+  padding: 15px;
+}
+
+.topSide {
+  min-height: 120px;
+  width: 100%;
+  display: flex;
+}
+
+.topSideControls {
+  display: flex;
+  flex-direction: row;
+
+  gap: 2%;
+  min-width: 800px;
+  align-items: center;
+  width: 90%;
+}
+
+.leftNavigation {
+  background-color: #e3e3e3;
+  height: 100vh;
+  width: 70px;
+}
+
+.leftNavigation > div > p {
+  margin-top: 25px;
+}
+
+.leftNavigation > div:first-child {
+  margin-bottom: 20px;
+}
+
+.navCircle > p {
+  padding: 14px;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.navActive > p {
+  border: 1px solid #00805b;
+  -webkit-box-shadow: 5px 5px 30px -8px rgba(0, 0, 0, 0.67);
+  box-shadow: 5px 5px 30px -8px rgba(0, 0, 0, 0.67);
+  font-weight: bold;
+}
+
+.leftNavigation > div {
+  padding: 10px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  jusitfy-content: center;
+  margin: 0;
+}
+
+.logo > p {
+  background-color: #00805b;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 14px;
+  color: white;
+  font-weight: semi-bold;
+}
+
+.menuItemActive {
+  background-color: #00805b;
+}
+
+.menuItem:hover {
+  background-color: #d6f2e9;
+}
+
+.topNavbar {
+  padding-left: 1%;
+  background-color: #f9f9f9;
+}
+
+.topNavbar > p {
+  margin: 0;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.navigationButton {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.mainContainer_ {
+  display: flex;
+  flex-direction: row;
+}
+
+.navigationButton > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+  min-width: 20px;
+  text-align: center;
+}
+
+.leftNavigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+  min-width: 20px;
+  text-align: center;
+}
+.button:hover {
+  cursor: pointer;
+}
+
+.navigationButton > div > svg {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navigationButtonText {
+  font-size: 14px;
+}
+
+.bottomSide {
+  min-width: 400px;
+  min-height: 200px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+.innerLeftHeader > p {
+  margin: 0;
+}
+.innerLeftHeader {
+  background-color: #e3e3e3;
+  height: 48px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.innerHeaderYear {
+  background-color: #e3e3e3;
+  text-align: center;
+  height: 48px;
+}
+
+.innerHeaderMonths {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.innerHeaderMonths > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #d6f2e9;
+  font-size: 14px;
+}
+
+.progBar {
+  width: 100%;
+  height: 7px;
+  background-color: #e3e3e3;
+  border-radius: 15px;
+  position: relative;
+}
+
+.progBarFiller {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  background-color: #00af79;
+  border-radius: 15px;
+}
+
+.taskItem > p {
+  margin: 0;
+  padding: 11px;
+  padding-bottom: 8px;
+  padding-right: 0;
+  padding-left: 30px;
+}
+
+.innerHeaderSecondView {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.innerHeaderSecondView > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.innerHeaderSecondView > div > div > p {
+  margin: 0;
+  text-align: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding: 5px;
+}
+
+.innerHeaderSecondView > div > div > p:nth-child(odd) {
+  font-size: 11px;
+}
+.innerHeaderSecondView > div > div > p:nth-child(even) {
+  font-size: 11px;
+}
+
+.innerHeaderSecondView > div > div:nth-child(odd) {
+  background-color: #d6f2e9;
+}
+.innerHeaderSecondView > div > div:nth-child(even) > p {
+  font-weight: bold;
+}
+.innerHeaderSecondView > div > div:nth-child(even) {
+  background-color: #ededed;
+}
+.innerHeaderSecondView > div > div:nth-child(even) {
+}
+
+.searchTool > .icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-right: 20px;
+  cursor: pointer;
+}
+.yearView > div {
+  min-width: 8%;
+}
+
+.searchTool > input:focus {
+  outline: none;
+}
+.rows {
+  overflow: hidden;
+}
+.searchTool > input {
+  border: none;
+  height: 100%;
+  background-color: #e3e3e3;
+  padding-left: 20px;
+  color: black;
+}
+.searchTool {
+  height: 44px;
+  background-color: #e3e3e3;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.innerLeftSide {
+  min-width: 18%;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.innerRightSide {
+  min-width: 82%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftDragContainer {
+  background-color: transparent;
+  min-width: fit-content;
+
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 0;
+}
+
+.rightDragContainer {
+  background-color: transparent;
+  min-width: fit-content;
+
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 0;
+}
+
+.topSideButton {
+  border: 1px solid #e3e3e3;
+  padding: 5px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+  color: #e3e3e3;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+.leftDrag {
+  background-color: transparent;
+  min-width: 50px;
+  min-height: 60px;
+  position: absolute;
+  right: 0;
+  cursor: col-resize;
+}
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}

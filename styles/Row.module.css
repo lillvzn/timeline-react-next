@@ -1,0 +1,45 @@
+.container {
+  min-height: 45px;
+  width: 100%;
+}
+
+.timeLineContainer {
+  background-color: aqua;
+  max-width: max-content;
+}
+
+.timeLine {
+  background-color: #d6f2e9;
+  min-height: 45px;
+  position: relative;
+}
+
+.leftDragContainer {
+  background-color: transparent;
+
+  
+  position: absolute;
+  right: 0;
+}
+.container:nth-child(odd) {
+  background-color: #f3f3f3;
+}
+
+.rightDragContainer {
+  background-color: transparent;
+  
+
+  position: absolute;
+  left: 0;
+}
+
+.leftDrag {
+  background-color: transparent;
+  position: absolute;
+  right: 0;
+  cursor: col-resize;
+}
+
+.innerLeftSide {
+  text-align: center;
+}
